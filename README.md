@@ -37,7 +37,7 @@ A smart contract bank with full security implementation.
 - Protected against reentrancy attacks
 
 **Security used:**
-- ✅ `ReentrancyGuard` from OpenZeppelin
+- ✅ `ReentrancyGuard` from OppenZeppelin
 - ✅ Checks-Effects-Interactions pattern
 - ✅ `Ownable` access control
 - ✅ `private` balance mapping
