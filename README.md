@@ -46,12 +46,30 @@ A smart contract bank with full security implementation.
 
 ---
 
+### 🪙 [Kareka Token (KRK) — ERC-20 Token](https://github.com/Moebium/Kareka-Token-Contract)
+A fully functional ERC-20 token deployed on Ethereum Sepolia Testnet.
+
+**What it does:**
+- Standard ERC-20 token compatible with MetaMask & all wallets
+- Fixed supply of 1,000,000 KRK
+- Owner-controlled minting
+
+**Built with:**
+- ✅ OpenZeppelin ERC-20 standard
+- ✅ `Ownable` for admin control
+- ✅ Live contract on Sepolia: `0xF95a8A5ba4eDf4356bC373f272b71F2AfB1bC8A4`
+
+> Importable directly into MetaMask on Sepolia network
+
+---
+
 ## 📚 Currently Learning
 
 - [ ] Hardhat — local testing & deployment
 - [ ] Foundry — advanced contract testing
 - [ ] ethers.js — connecting contracts to frontend
-- [ ] ERC-20 & ERC-721 token standards
+- [x] ERC-20 token standard ← done with Kareka Token!
+- [ ] ERC-721 NFT standard
 - [ ] DeFi patterns: staking, liquidity pools
 
 ---
