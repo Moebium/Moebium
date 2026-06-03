@@ -20,9 +20,10 @@ I'm a Solidity developer focused on writing **secure, well-tested smart contract
 |---|---|
 | **Language** | Solidity |
 | **Security** | OpenZeppelin, ReentrancyGuard, Ownable |
-| **IDE** | Remix IDE |
+| **Testing** | Foundry |
+| **IDE** | Remix IDE, VS Code |
 | **Network** | Ethereum (Sepolia Testnet) |
-| **Currently Learning** | Hardhat, Foundry, ethers.js |
+| **Currently Learning** | Hardhat, ethers.js, ERC-721 |
 
 ---
 
@@ -63,14 +64,46 @@ A fully functional ERC-20 token deployed on Ethereum Sepolia Testnet.
 
 ---
 
+### 🏧 [StakingDapp — DeFi Staking Contract](https://github.com/Moebium/StakingDapp)
+A secure DeFi staking protocol built with Solidity.
+
+**What it does:**
+- Users stake ETH and earn 10% reward
+- 30-day lock period enforced on-chain
+- Secure reward claiming system
+
+**Built with:**
+- ✅ Checks-Effects-Interactions security pattern
+- ✅ Custom modifiers for access control
+- ✅ Time-based lock period using `block.timestamp`
+- ✅ Struct-based user data storage
+
+---
+
+### 🧪 [StakingDapp-Tests — Foundry Test Suite](https://github.com/Moebium/StakingDapp-Tests)
+Complete Foundry test suite for the StakingDapp contract.
+
+**8 tests — all passing ✅**
+- Happy path tests (stake, unstake, claim reward)
+- Revert tests (zero amount, stake twice, unstake early)
+- Time-based tests using `vm.warp()`
+- Balance verification tests
+
+**Built with:**
+- ✅ Foundry framework
+- ✅ Cheat codes: vm.prank, vm.warp, vm.deal, vm.expectRevert
+- ✅ Test results documented in test-results.txt
+
+---
+
 ## 📚 Currently Learning
 
+- [x] ERC-20 token standard ✅ done with Kareka Token!
+- [x] DeFi patterns: staking, rewards, time locks ✅ done with StakingDapp!
+- [x] Foundry testing framework ✅ done with StakingDapp-Tests!
 - [ ] Hardhat — local testing & deployment
-- [ ] Foundry — advanced contract testing
 - [ ] ethers.js — connecting contracts to frontend
-- [x] ERC-20 token standard ← done with Kareka Token!
 - [ ] ERC-721 NFT standard
-- [ ] DeFi patterns: staking, liquidity pools
 
 ---
 
